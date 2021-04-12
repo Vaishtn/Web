@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head>
+    <title>JS</title>
+    <script>
+        // alert("alert")
+        // document.write("<h1>welcome</h1>")
+        // console.log("introduction to html")
+        // console.log("JS is case sensitive")
+        // console.log("JS is client side scripting language")
+        // console.log("JS is used to make page interactive")
+    
+        // var a
+        // a=10
+        // console.log(typeof(a))
+        // a=true
+        // console.log(typeof(a))
+        // var a 
+        // console.log(a)
+        // console.log(typeof(a))
+        // var b
+        // b=a
+        // console.log(b)
+    
+        // if (b) {
+        //     console.log("b is boolean")
+            
+        // }
+    
+        // for (i=0;i<10;i++){
+        //     console.log(i)
+        //     document.write(i)
+        // }
+    
+        function hello(){
+        
+        
+        var LastName=document.getElementById("lastName").value
+        if(LastName.length==""){
+            var err=document.getElementById("errLastName")
+            console.log(message)
+            err.innerHTML="please enter lastName"
+            err.style.color="red"
+        }
+
+        var Email=document.getElementById("email").value
+        if(email.length==""){
+            var err=document.getElementById("erremail")
+            console.log(err)
+            err.innerHTML="please enter email"
+            err.style.color="red"
+        }
+
+        //document.formname.controlname
+        console.log(document.registration.state[0].checked)
+        console.log(document.registration.state[1].checked)
+        console.log(document.registration.state[2].checked)
+        // if(document.registration.state.value)
+        if(document.registration.state[0].checked==false 
+        && document.registration.state[1].checked==false 
+        && document.registration.state[2].checked==false){
+            console.log("entering radio validation")
+            var err=document.getElementById("errState")
+            err.innerHTML="please select state"
+            err.style.color="red"
+        }
+        
+        console.log(Document.registration.language)
+        console.log(document.registration.language.value)
+        var language=(document.registration.language.value)
+        if(language.value=="0"){
+            console.log("validating select")
+            var err=document.getElementById("errLanguage")
+            err.innerHTML="please select language"
+            err.style.color="red"
+            err.style.textDecoration="underline"
+        }
+
+
+    }  
+
+//function express
+    var res=function mock(){
+        console.log("function invoked mock")
+    }
+    res()
+//Ananymous function
+    var assignment =function(){
+        console.log("calling function")
+    }
+
+    assignment()
+    </script>
+    
+</head>
+<body>
+    <h1>Welcome to JavaScript</h1>
+    </body>
+<form name="registration">
+    <div>
+        <label>Enter the name</label>
+        <input type="text" id="Name">
+        <span id="errName"></span>
+    </div>
+
+    <div>
+        <label>Enter the LastName</label>
+        <input type="text" id="LastName">
+        <span id="errLastName"></span>
+    </div>
+
+    <div>
+        <label>Enter Email</label>
+        <input type="email" id="Email">
+        <span id="erremail"></span>
+    </div>
+
+    <div>
+        <label>Select State</label>
+        <input type="radio" name="state" >Karnatak
+        <input type="radio" name="state" >Keral
+        <input type="radio" name="state" >Assam
+    </div>
+
+    <div>
+        <labe>Select Language</labe>
+        <select name="language">
+            <option value="0">---Select----</option>
+            <option>English</option>
+            <option>kannada</option>
+            <option>Telugu</option>
+            <option>Hindi</option>
+        </select>
+        <span id="eleLanguage"></span>
+    </div>
+
+    <button input="submit">Submit</button>
+</form>
+
+
+    </html>
+

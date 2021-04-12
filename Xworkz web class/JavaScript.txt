@@ -1,0 +1,22 @@
+Javascript:
+	it is client side scripting language.it is case sensitive.
+	to make page interactive:
+	form validation:
+	Event handling:
+	syntax:
+	<script>
+	
+
+	</script>
+Datatype:
+string
+boolean
+number
+undefined
+null
+
+how to declare a variable:
+
+Type of javascript:
+internal
+external

@@ -1,0 +1,151 @@
+body{
+     background-color: rosybrown;
+    background-image: url("C:/Users/DELL/Pictures/Dora.jpg");
+     height: 30px;
+     width:30px;
+     background-size: cover;
+    background-repeat: no-repeat; 
+    text-align:center;
+    margin: 0;
+    
+}
+        h1{
+            background-color:rgb(219, 224, 231);
+            
+            font-size:50px;
+            text-align: center;
+            text-decoration: rgb(61, 58, 61);
+            text-transform: capitalize;
+            font-family:'Courier New', Courier, monospace ;
+
+        }
+       
+        .box3:hover{
+            background-color: rgb(11, 12, 12);
+        }
+        .box4{
+            border: 2px solid rgb(207, 196, 196);
+            width: 100px;
+            height: 100px;
+            background-color: rgb(20, 128, 83);
+            margin-left:200px;
+            padding:50px;
+            bottom:10px;
+            display: inline;
+        }
+        .hyper.link{
+            background-color:royalblue ;
+
+        }
+        .insta:active{
+            background-color: royalblue;
+        }
+
+        table,tr,th{
+            border: 2px solid black;
+        }
+        tr:nth-child(even){
+            background-color: rgb(223, 223, 233);
+        }
+        tr:nth-child(odd){
+            background-color: rgb(31, 32, 30);
+        }
+        tr:nth-child(even):hover{
+            background-color: darkgray;
+        }
+    tr:nth-child(odd):hover{
+        background-color: darkorchid;
+    }
+
+    .comb{
+        color: darkorchid;
+    }
+
+    div  p{
+        color: darkred;
+    }
+
+    /* div +p{
+        color: rgb(155, 122, 233);
+    } */
+
+    /* div ~ p{
+        color: darkslategrey;
+    } */
+
+    .pos{
+        position: static;
+        border: 2px soild red;
+    }
+    .one{
+        position: relative;
+        bottom:20px;
+        border:2px solid black ;
+        background-color: blue;
+    }
+    .two{
+        position: absolute;
+        top:20px;
+        border: 4px solid blue;
+        background-color: burlywood;
+
+    }
+    .special{
+        position: absolute;
+        background-color: chartreuse;
+        //top: 20px;
+    }
+    .button{
+        background-color: lightgoldenrodyellow;
+        color: lightgray;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    /* ul{
+        margin: 0;
+        padding: 0;
+        background-color: brown;
+    }
+    li{
+        list-style-type: none;
+        float: left;
+        background-color: black;
+    }
+   li a{
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        color: blanchedalmond;
+    } */
+    ul{
+        padding:0;
+        margin:0;
+        width:100px;
+    }
+    li{
+        list-style-type:none;
+        background-color:black;
+    }
+    li a{
+        text-decoration:none;
+        padding:10px;
+        display:block;
+        color:white;
+    }
+li a:hover{
+    color:white;
+    background-color:red;
+}
+@media screen and (min-width:568px){
+    body{
+        background-color:black;
+    }
+}
+@media screen and (max-width:500px){
+    body{
+        background-color:black;
+    }
+}
+

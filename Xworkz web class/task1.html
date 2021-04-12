@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hi</title>
+        <script>
+            function printOccurrence(str){
+               // console.log(str.charAt(0))
+               var res =""
+                for(var i=0;i<str.length;i++){
+                    if(!res.includes(str.charAt(i))){
+                        res=res + str.charAt(i)
+                    }
+                }
+                console.log(res)
+            }
+            var str="sajhags"
+            printOccurrence(str)
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

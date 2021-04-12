@@ -1,0 +1,29 @@
+.body{
+    background-color: cornsilk;
+    
+}
+  
+h1{
+    background-color: darkblue;
+    text-align: center;
+    padding: 5%;
+}
+  
+.course {
+    width: 30%;
+    height:100%;
+    
+
+    float:right;                              
+}
+
+.desc {
+    width:70%;
+    height:100%;
+    float:left;
+    
+}
+.intro{
+    
+    color: rgba(22, 18, 18, 0.836);
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet"
+        href="form1.css">
+    
+    </head>
+    <body>
+        <form>
+        <h3>Employee Interests Survey form</h3>
+        <label>Enter your name</label>
+        <input type="text">
+        <br>
+        <label>Enter your department</label>
+        <input type="text">
+        <br>
+        <label>Tell us a little about yourself</label>
+        <input type="text">
+        <br>
+        <label>Do you exercise at home?</label>
+        <input type="radio" name="works">yes
+        <input type="radio" name="works">No
+
+        <br>
+        <p>How do you like to read about your favorite topics?</p>
+         <input type="checkbox">Books
+        <input type="checkbox">Online resources
+        <input type="checkbox">Phone apps
+        <input type="checkbox">Magazines
+            <br>
+        <br>
+        <label>What genre of movies do you like?</label>
+<select>
+    <option>---select--</option>
+    <option>Comedy</option>
+    <option>Romentic</option>
+    <option>Thriling</option>
+    <option>Fiting</option>
+</select>
+<br>
+<br>
+
+<button type="submit">Submit</button>
+
+        </form>
+    </body>
+</html>
+----------------------------------------------------------------
+.body{
+    background-color: white;
+    text-align: center;
+}
+input[type=text]{
+    width: 100px;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+-----------------------------------------------------------------------
+<!DOCtype html>
+<html>
+    <head>
+        <title> welcome</title>
+        <link rel="stylesheet"
+    href="Assignment1.css">
+    
+    </head>
+    <body>
+        <h1>Introduction</h1>
+        <samp class="body"></samp>
+        <p>Some content about the main topic,for example java documentation introduction about the language.</p>
+        <h2>What you should already know</h2>
+        <p>Background information before getting into the topic</p>
+        <ul>
+            <li>Some list content</li>
+            <li>Prerequisties</li>
+            <li>Working and assumptions</li>
+        </ul>
+        <p>Any other content to be covered before learning this topic.</p>
+        <h2>About topic</h2>
+        <p>More lines about the topic. For example , how the basic functionality works,features etc...</p>
+        <p>Technical documentation should be through and to the point</p>
+        <p>Write about features, comparisons with other languages etc</p>
+        <h2>Topic 1</h2>
+        <p>Getting startted with the actual documentation content <b>This would come in a different color and font indicating lines of code</b> </p>
+        <h2>Topic 2</h2>
+        <p>Another topic about the main topic,for example, if the topic is java, this could be variables or data types in java.</p>
+    </body>
+</html>
+-------------------------------------------------------------
+.body{
+    background-color:white;
+
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+h2{
+    background-color: black;
+    color: white;
+}
+h2{
+    background-color: black;
+    color: white;
+}
+b{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+-------------------------------------------------------------------
+
