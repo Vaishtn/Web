@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+  background:url(https://globetrender.com/wp-content/uploads/2020/05/Caribbean-beach.jpg)
+  
+  }
+
+
+/* Header/Logo Title */
+.header {
+  padding: 30px;
+  width:100% ;
+  text-align: center;
+  background: #e62d65;
+  color: white;
+  font-size: 20px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #e62d65;
+  color: white;
+  
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>X-Workz</h1>
+  <p>ODC</p>
+</div>
+
+<div class="container">
+  <br>
+    <h2>Registration Form</h2>
+    <form >
+
+      <div class="form-group ">
+        <label for="fname">First Name</label>
+      
+        <input type="text"  id="fname" class="col-sm-2" name="firstname" placeholder="Your name.."  oninput="vname()">
+        <p id="msg"></p>
+        
+      </div>
+
+    <div class="form-group">
+        <label for="lname">Last Name</label>
+        <input type="text"  id="lname" class="col-sm-2" name="lastname" placeholder="Your last name.." oninput="sname()">
+        <p id="vmsg"></p>
+
+      
+      
+    </div>
+
+    <div class="form-group">
+        
+        <label for="dob">Date Of Birth</label>
+        <input type="date" class="col-sm-2" id="dob"  name="dob">
+        
+    </div>
+
+        <div class="form-group">
+            <label for="gender">Gender</label>
+              <select id="gender" class="col-sm-2" name="gender">
+                <option selected>---Select---</option>
+
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="Trans">Trans</option>
+              </select>
+              </div>      
+      
+        <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="col-sm-2" id="email" placeholder="Enter email" name="email" oninput="zname">
+        <p id="zmsg"></p>
+      </div>
+
+      <div class="form-group">
+        <label for="pwd">Password:</label>
+        <input type="password" class="col-sm-2" id="pwd" placeholder="Enter password" name="pswd" oninput="tname">
+        <p id="tmsg"></p>
+      </div>
+
+      <div class="form-group">
+        <label for="pwd">Re-Type Password:</label>
+        <input type="password" class="col-sm-2" id="cpwd" placeholder="Enter password" name="pswd" oninput="mname">
+        <p id="mmsg"></p>
+      </div>
+     <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input " class="col-sm-2" type="checkbox" name="remember"> Remember me
+            </label>
+          </div>
+          
+      
+      <button type="submit" class="btn btn-primary" onclick="return validation()" >Submit</button>
+      <button type="reset" class="btn btn-link">Cancel</button>
+      <a href="./login.html" onclick="return validation()">login</a>
+
+
+    </form>
+  
+  
+
+<footer>
+    <p>Founder:Omkar Development<br>
+    <a href="mailto:om.xworkz@example.com">om.xworkz@example.com</a></p>
+  </footer>
+  <script src="./index.js"></script>
+
+  
+
+
+</body>
+</html>
